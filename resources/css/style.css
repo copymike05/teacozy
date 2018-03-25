@@ -1,0 +1,156 @@
+/* Universal Items */
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+
+nav span {
+    padding: 20px 10px;
+}
+
+/* Header Section */
+
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav span {
+  padding-right: 40px;
+}
+
+a {
+  color: seashell;
+} /* Looking to remove this item */
+
+/* Main Content */
+
+.content {
+  margin: auto;
+  width: 1200px;
+  opacity: 0.9;
+  }
+
+/* Top Section */
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.top-section .image-content {
+  display: flex;
+  background-image: url(background.jpg);
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+
+}
+
+.top-section .text-content {
+  background-color: black;
+  width: 100%; /* This section seems too tall. Can we shrink it? */
+}
+
+/* Middle Section */
+
+#tea {
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+.middle-section img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.images {
+  padding: 5px;
+}
+
+.images span {
+  font-weight: bold;
+
+}
+/* Bottom Image Section */
+
+.bottom-section {
+  background-image: url(locations.jpg);
+  height: 500px;
+  padding-top: 70px;
+  width: 1200px;
+  }
+
+.bottom-section .image-content{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 20px;
+  width: 300px;
+}
+
+h2, h3 {
+  margin: 0;
+  padding: 10px;
+  display: block;
+}
+
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Contact Section */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer Section */
+
+footer {
+text-align: left;
+padding-left: 20px;
+}
